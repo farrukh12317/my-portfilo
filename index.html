@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <title>Farrukh | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Lenis for Smooth Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.25/bundled/lenis.min.js"></script>
+
+  <!-- Shery.js (Mouse follow etc.) -->
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="back">
+      <img src="/imgs/breno-machado-in9-n0JwgZ0-unsplash.jpg" alt="" />
+    </div>
+    <header class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="/Farrukh_Shah__1_-removebg-preview.png" />
+        </div>
+        <nav class="nav-links">
+          <a href=".about_me" class="shery-link">About</a>
+          <a href=".myproj-section" class="shery-link">Work</a>
+          <a href="#contact" class="shery-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- <div id="mouse-follower" class="follower"></div> -->
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Farrukh shah</h1>
+        <p>Elevate your digital presence with stunning web experiences.</p>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <!-- .................. -->
+    <!-- for bentu grid  -->
+    <div class="about_me">
+      <section class="about-section">
+        <div class="about-image">
+          <img src="ChatGPT Image Aug 12, 2025, 07_18_59 PM.png" alt="Profile Photo" />
+        </div>
+        <div class="about-text">
+          <h1>Hello, I'm <span>Farrukh shah</span></h1>
+          <p>
+            I'm a passionate <strong>Full-Stack Web Developer</strong> who
+            loves building modern, interactive, and high-performance websites.
+            My expertise includes <strong>JavaScript</strong>,
+            <strong>React</strong>, and <strong>Node.js</strong>. I enjoy
+            solving complex problems and turning ideas into reality through
+            clean and scalable code.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Hero Title -->
+
+    <!-- Bento Grid Section -->
+    <section class="container py-5">
+      <div class="row g-4">
+        <!-- HTML -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" class="card-img-top w-50 mx-auto"
+              alt="HTML" />
+            <div class="card-body">
+              <h5 class="card-title">HTML5</h5>
+              <p class="card-text">Semantic and accessible markup.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" class="card-img-top w-50 mx-auto"
+              alt="CSS" />
+            <div class="card-body">
+              <h5 class="card-title">CSS3</h5>
+              <p class="card-text">Beautiful, responsive designs.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" class="card-img-top w-50 mx-auto"
+              alt="JavaScript" />
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">Make your site interactive and dynamic.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" class="card-img-top w-50 mx-auto"
+              alt="Bootstrap" />
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">Rapidly build responsive sites.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- React -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" class="card-img-top w-50 mx-auto"
+              alt="React" />
+            <div class="card-body">
+              <h5 class="card-title">React.js</h5>
+              <p class="card-text">Build dynamic UIs efficiently.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Node.js -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" class="card-img-top w-50 mx-auto"
+              alt="Node.js" />
+            <div class="card-body">
+              <h5 class="card-title">Node.js</h5>
+              <p class="card-text">Backend power with JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Express -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" class="card-img-top w-50 mx-auto"
+              alt="Express" />
+            <div class="card-body">
+              <h5 class="card-title">Express.js</h5>
+              <p class="card-text">Minimalist web server framework.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- MongoDB -->
+        <div class="col-md-6 col-lg-3 bento-card">
+          <div class="card h-100 shadow-sm text-center p-3">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" class="card-img-top w-50 mx-auto"
+              alt="MongoDB" />
+            <div class="card-body">
+              <h5 class="card-title">MongoDB</h5>
+              <p class="card-text">Flexible NoSQL database.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="bento-grid">
+        <!-- Row 1 -->
+        <div class="bento-cell">
+          <h3>HTML/CSS</h3>
+          <p>Semantic markup and responsive design</p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">Flexbox</span>
+            <span class="tech-tag">Grid</span>
+          </div>
+        </div>
+
+        <div class="crystal-center">
+          <div class="crystal">
+            <div class="crystal-text">My<br />Stack</div>
+          </div>
+        </div>
+
+        <div class="bento-cell">
+          <h3>JavaScript</h3>
+          <p>Interactive web experiences</p>
+          <div class="tech-tags">
+            <span class="tech-tag">ES6+</span>
+            <span class="tech-tag">DOM</span>
+            <span class="tech-tag">AJAX</span>
+            <span class="tech-tag">Fetch API</span>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="bento-cell">
+          <h3>React</h3>
+          <p>Component-based UI library</p>
+          <div class="tech-tags">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Hooks</span>
+            <span class="tech-tag">Context</span>
+            <span class="tech-tag">Router</span>
+          </div>
+        </div>
+
+        <div class="bento-cell">
+          <h3>Node.js</h3>
+          <p>Server-side JavaScript</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Node</span>
+            <span class="tech-tag">NPM</span>
+            <span class="tech-tag">REST</span>
+          </div>
+        </div>
+
+        <div class="bento-cell">
+          <h3>Express.js</h3>
+          <p>Web application framework</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">Middleware</span>
+            <span class="tech-tag">Routing</span>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="bento-cell">
+          <h3>Bootstrap</h3>
+          <p>CSS framework for responsive design</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Bootstrap 5</span>
+            <span class="tech-tag">Components</span>
+            <span class="tech-tag">Utilities</span>
+          </div>
+        </div>
+
+        <div class="bento-cell">
+          <h3>Databases</h3>
+          <p>Data storage solutions</p>
+          <div class="tech-tags">
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="bento-cell">
+          <h3>Tools</h3>
+          <p>Development workflow</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">Webpack</span>
+            <span class="tech-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ............... solar -->
+
+    <div class="solar_main">
+      <div class="solar-system">
+        <div class="sun">TECH<br />STACK</div>
+
+        <div class="orbit orbit-1">
+          <div class="planet" id="html">HTML</div>
+        </div>
+
+        <div class="orbit orbit-2">
+          <div class="planet" id="css">CSS</div>
+        </div>
+
+        <div class="orbit orbit-3">
+          <div class="planet" id="js">JS</div>
+        </div>
+
+        <div class="orbit orbit-4">
+          <div class="planet" id="react">React</div>
+        </div>
+
+        <div class="orbit orbit-5">
+          <div class="planet" id="node">Node</div>
+        </div>
+
+        <div class="orbit orbit-6">
+          <div class="planet" id="bootstrap">Bootstrap</div>
+        </div>
+
+        <div class="orbit orbit-7">
+          <div class="planet" id="tailwind">Tailwind</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GSAP Animation -->
+    <!-- <script>
+    gsap.from(".bento-card", {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      stagger: 0.2,
+      ease: "power3.out"
+    });
+  </script> -->
+
+    <!-- Bootstrap JS (Optional) -->
+    <!-- ! projects section  -->
+
+    <section class="projects-section">
+      <div class="projects-grid">
+        <div class="project-card wide tall">
+          <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.12.14 PM (2).jpeg" alt="Project 1" />
+        </div>
+        <div class="project-card">
+          <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.12.14 PM (1).jpeg" alt="Project 2" />
+        </div>
+        <div class="project-card">
+          <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.15.10 PM.jpeg" alt="Project 3" />
+        </div>
+        <div class="project-card wide">
+          <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.12.13 PM.jpeg" alt="Project 4" />
+        </div>
+      </div>
+    </section>
+
+     <section class="myproj-section">
+    <h2 class="text-center mb-4">My Projects</h2>
+    <div class="myproj-grid">
+
+      <!-- Project 1 -->
+      <div class="myproj-card">
+        <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.12.14 PM (2).jpeg" alt="React Router Website" />
+        <div class="myproj-content">
+          <h4>React Router Website</h4>
+          <p>Single-page React app with React Router DOM navigation.</p>
+          <div class="myproj-links">
+            <a href="https://github.com/farrukh12317" target="_blank" class="code">Code</a>
+            <a href="#" target="_blank" class="live">Live</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="myproj-card">
+        <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.12.14 PM (1).jpeg" alt="React To-Do App" />
+        <div class="myproj-content">
+          <h4>React To-Do App</h4>
+          <p>Task management app with add, delete, and complete features.</p>
+          <div class="myproj-links">
+            <a href="https://github.com/farrukh12317" target="_blank" class="code">Code</a>
+            <a href="#" target="_blank" class="live">Live</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="myproj-card">
+        <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.15.10 PM.jpeg" alt="URL Shortener" />
+        <div class="myproj-content">
+          <h4>URL Shortener (In Progress)</h4>
+          <p>React-based frontend for generating short links.</p>
+          <div class="myproj-links">
+            <a href="https://github.com/farrukh12317" target="_blank" class="code">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="myproj-card">
+        <img src="/projectsimg/WhatsApp Image 2025-08-12 at 2.12.13 PM.jpeg" alt="Digital Sindh Website" />
+        <div class="myproj-content">
+          <h4>Digital Sindh Website</h4>
+          <p>Developed a responsive site during my internship at Digital Sindh.</p>
+          <div class="myproj-links">
+            <a href="#" target="_blank" class="live">Live</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section text-center py-5">
+      <h2>Contact Me</h2>
+      <p>
+        📧 Email:
+        <a href="mailto:sfarrukh033@gmail.com">sfarrukh033@gmail.com</a>
+      </p>
+      <p>📱 Phone: 0318-2483449</p>
+      <p>
+        🌐 GitHub:
+        <a href="https://github.com/farrukh12317" target="_blank">github.com/farrukh12317</a>
+      </p>
+      <p>
+        💼 LinkedIn:
+        <a href="https://www.linkedin.com/in/farrukh-shah-57a982233" target="_blank">linkedin.com/in/farrukh-shah</a>
+      </p>
+    </section>
+
+    <!--  ! icon section -->
+  </div>
+
+  <!-- ............!!lenis tags  -->
+
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.26/dist/lenis.min.js"></script>
+  <script></script>
+
+  <!-- .......................... -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <script type="module">
+    import Shery from "https://cdn.jsdelivr.net/npm/sheryjs@1.0.0-beta.0.0.9/dist/Shery.js";
+
+    document.addEventListener("DOMContentLoaded", () => {
+      Shery.imageEffect(".back", {
+        style: 5,
+        debug: true,
+      });
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
