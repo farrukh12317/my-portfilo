@@ -287,7 +287,7 @@ h6 {
 
 /* ============================ about me  */
 
-.about_me {
+#about_me {
   margin: 0;
   font-family: "Poppins", sans-serif;
 
@@ -948,14 +948,14 @@ h6 {
 }
 
 /* ................. new project sectien libe cod e */
-.myproj-section {
+#myproj-section {
   padding: 70px 20px;
   
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
-.myproj-section h2 {
+#myproj-section h2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 40px;
@@ -1040,3 +1040,4 @@ h6 {
 .myproj-card:hover {
   transform: translateY(-6px);
 }
+
